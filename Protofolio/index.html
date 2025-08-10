@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>SHAZZY — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-frame">
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="logo-dot"></div>
+          <div class="brand-text">SHAZZY<span>Portfolio</span></div>
+        </div>
+         <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+        <nav class="main-nav">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#projects" class="nav-link">My Projects</a>
+          <a href="#testimonials" class="nav-link">Reviews</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <a class="btn contact-cta" href="#contact">Contact Us</a>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-left fade-in" data-delay="0.05">
+          <p class="eyebrow">WELCOME TO MY WORLD ✨</p>
+          <h1 class="hero-title">Hi, I'm <span class="name">SHAZIL</span></h1>
+          <h2 class="role"><span class="accent">FRONT-END</span> DEVELOPER</h2>
+          <p class="lead">Passionate Frontend Developer — I craft responsive, user-friendly, and visually engaging websites, transforming ideas into functional and seamless digital experiences that delight users.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">My Projects</a>
+            <a href="PDF/Shazil.pdf.pdf" class="btn secondary" download>Download CV</a>
+          </div>
+          
+          <div class="social-links">
+            <a href="https://twitter.com/shazil_b" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/shazil-dev/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ShazzyDev1" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://vercel.com/shazzys-projects" target="_blank" title="Vercel">
+            <img src="https://assets.vercel.com/image/upload/v1662130559/front/favicon/vercel/180x180.png" alt="Vercel" class="vercel-icon">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section alt fade-in" data-delay="0.05">
+      <div class="container section-inner">
+        <h2 class="section-title">About me</h2>
+        <div class="about-content" >
+          <p>I'm a <strong>Frontend Developer</strong> with a passion for crafting engaging user interfaces and seamless digital experiences.</p>
+          <p>I study Computer Science and develop using HTML, CSS, JavaScript, React, and Flutter.</p>
+        </div>
+        <div class="about-cards fade-in" data-delay="0.1">
+          <div class="service-card"  style="width: 700px">
+            <div class="card-head">Creative Problem Solver</div>
+            <p class="card-body">I focus on solving UI challenges with efficient and clean code, ensuring the final product is both beautiful and functional.</p>
+          </div>
+          <div class="service-card"  style="width: 700px">
+            <div class="card-head">Team Collaborator</div>
+            <p class="card-body">I love working in cross-functional teams, contributing ideas, and helping bring concepts to life from wireframes to deployment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <div class="container section-inner">
+    <h2 class="section-title">Services</h2>
+    <div class="cards-grid fade-in" data-delay="0.05" style="justify-content: center; display: flex; gap: 45px;">
+      <div class="service-card"  style="width: 500px";>
+        <div class="card-head">Front-end</div>
+        <p class="card-body">HTML/CSS/JS implementation and design handoff.</p>
+      </div>
+      <div class="service-card"  style="width: 500px";>
+        <div class="card-head">On Going</div>
+        <p class="card-body">Learning Dart with Flutter and many more.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt fade-in" data-delay="0.05">
+      <div class="container section-inner">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+          <div class="project">
+            <img src="images/image1.jpg" alt="Project 1">
+            <div class="project-overlay">Coming Soon!</div>
+          </div>
+
+          <div class="project">
+            <img src="images/image2.jpg" alt="Project 2">
+            <div class="project-overlay">Coming Soon!</div>
+          </div>
+
+          <div class="project">
+            <img src="images/image3.jpg" alt="Project 3">
+            <div class="project-overlay">Coming Soon!</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="testimonials" class="section">
+      <div class="container section-inner fade-in" data-delay="0.05">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial">
+            <p class="quote">"Excellent designer — delivered a beautiful and usable product."</p>
+            <div class="meta">— Client A</div>
+          </div>
+
+          <div class="testimonial">
+            <p class="quote">"Great collaboration and fast turnaround."</p>
+            <div class="meta">— Client B</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <section id="contact" class="section alt fade-in" data-delay="0.05">
+    <div class="container section-inner">
+      <h2 class="section-title">Let's create something together</h2>
+
+    <div class="contact-layout">
+      <form class="contact-form" onsubmit="return false;">
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Your email" required />
+        <textarea placeholder="Your message" rows="5" required></textarea>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+
+        <div class="contact-socials">
+          <a href="https://github.com/ShazzyDev1" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/shazil_b" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/shazil-dev/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 <b>Shazzy Codes</b> — Built with ❤️</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
